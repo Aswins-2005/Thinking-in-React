@@ -1,16 +1,80 @@
-# React + Vite
+# React Product Search & Filter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive product search and filtering application built using **React.js**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Display products in a structured table.
+- Separate products into Fruits and Vegetables categories.
+- Search products by name.
+- Filter products based on stock availability.
+- Dynamically update the product list using React state.
+- Reusable React components.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── Search.jsx
+│   ├── filter.jsx
+│   └── Product.jsx
+├── Data/
+│   └── Plist.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## 📚 Concepts Learned
+
+- React Components
+- Props
+- useState Hook
+- Array filter() method
+- Array map() method
+- Conditional filtering
+- Component communication
+- CSS Flexbox
+
+## 🎯 Project Purpose
+
+This project was created as a hands-on learning exercise to understand React fundamentals, component-based architecture, state management, and dynamic data rendering.
+
+---
+
+**Built with ❤️ using React.js**
