@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.searchbar input{
+    width: 230px;
+    border: 2px solid;
+    padding: 4px;
+    margin: 10px;
+}
+
+.filter label{
+    padding: 20px;
+}
+ 
+table{
+    border-collapse: collapse;
+    width: 300px;
+}
+.table th,td{
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: left;
+
+    
+}
+
